@@ -15,7 +15,7 @@ export default () => {
 
         simulationStarted = true;
 
-        for (let i = 0; i < iterations; i++) {
+        for (let i = 1; i <= iterations; i++) {
             let r1, r2;
             
             do {
